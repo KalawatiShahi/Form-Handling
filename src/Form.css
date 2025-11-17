@@ -1,0 +1,75 @@
+/* Center the entire form on the page */
+form {
+  width: 350px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+/* Each input field container */
+form div {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label style */
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input box style */
+form input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+/* Input focus effect */
+form input:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 6px rgba(0, 123, 255, 0.4);
+}
+
+/* Submit button */
+form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+form button:hover {
+  background: #0056b3;
+}
+
+/* Display saved registration data */
+.showDataStyle {
+  width: 350px;
+  margin: 20px auto;
+  padding: 15px;
+  background: #f7f7f7;
+  border-left: 4px solid #007bff;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.showDataStyle p {
+  margin: 5px 0;
+  color: #333;
+}

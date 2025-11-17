@@ -1,103 +1,69 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* Center the login card */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+/* Card styling */
+.login-card {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
- .active{
-    margin:30px;
- }
-
-
- /* Center the form on the page */
-form {
-  max-width: 400px;
-  margin: 50px auto;
-  padding: 25px;
-  background: #3893eeff;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-/* Each input group */
-form div {
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Label styling */
-label {
-  font-weight: 600;
-  margin-bottom: 5px;
+/* Form heading */
+.login-card h1 {
+  margin-bottom: 30px;
   color: #333;
 }
 
-/* Input box styling */
-input[type="text"] {
-  padding: 10px;
+/* Input fields */
+.login-card input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0 20px 0;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 15px;
-  outline: none;
-  transition: 0.3s;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
 /* Input focus effect */
-input[type="text"]:focus {
+.login-card input:focus {
   border-color: #007bff;
-  box-shadow: 0 0 4px rgba(0,123,255,0.4);
+  outline: none;
 }
 
-/* Optional: Add submit button if you like */
-button {
+/* Labels */
+.login-card label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Submit button */
+.login-card button {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
   border: none;
   border-radius: 6px;
-  background: #007bff;
-  color: blue;
   font-size: 16px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: background-color 0.3s;
 }
 
-button:hover {
-  background: #0056b3;
+/* Button hover effect */
+.login-card button:hover {
+  background-color: #0056b3;
 }
