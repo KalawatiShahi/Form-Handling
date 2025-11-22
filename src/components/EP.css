@@ -1,0 +1,32 @@
+.g-div{
+    height:200px;
+    width:200px;
+    background:blue;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    padding:20px;
+    color:white;
+}
+.p-div{
+     height:200px;
+    width:200px;
+    background:blue;
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    padding:20px;
+    color:white;
+}
+
+.c-div{
+ 
+    width:200px;
+    background:pink;
+    text-align:center;
+    font-weight:bold;
+    margin:20px;
+    padding:20px;
+    color:black;
+
+}

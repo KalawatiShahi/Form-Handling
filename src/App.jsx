@@ -1,12 +1,15 @@
 import React from 'react';
-// import Login from './loginform/Login';
-import MultipleInputs from './form/MultipleInputs';
+import { EventPropagation } from './components/EventPropagation';
+// import Login from './components/Login';
+// import MultipleInputs from './components/MultipleInputs';
 
 function App(){
   return(
     <div>
-       <MultipleInputs/>
+       {/* <MultipleInputs/> */}
        {/* <Login/> */}
+
+       <EventPropagation />
     </div>
   )
 }
