@@ -1,5 +1,7 @@
 import React from 'react';
-import { EventPropagation } from './components/EventPropagation';
+import ReactMemo from './components/memo/ReactMemo';
+// import LoginForm from './components/LoginForm';
+// import { EventPropagation } from './components/EventPropagation';
 // import Login from './components/Login';
 // import MultipleInputs from './components/MultipleInputs';
 
@@ -8,8 +10,9 @@ function App(){
     <div>
        {/* <MultipleInputs/> */}
        {/* <Login/> */}
-
-       <EventPropagation />
+{/*<LoginForm/> */}
+       {/* <EventPropagation /> */}
+       <ReactMemo/>
     </div>
   )
 }

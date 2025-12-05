@@ -13,9 +13,7 @@ const MultipleInputs =() =>{
     const [record, setRecord] = useState([]);
 
     const handleInput = (e)=>{
-        const name = e.target.name;
-        const value = e.target.value;
-
+       const {name, value} = e.target;
         setUserRegistraction({...userRegistraction, [name]:value});
     }
 
@@ -24,6 +22,7 @@ const MultipleInputs =() =>{
 
         const newRecord = ({...userRegistraction, id:new Date().getTime.toString()});
        setRecord([...record, newRecord]);
+       
 
        setUserRegistraction({username:"", email:"", phone:"", password:""});
     }
